@@ -17,3 +17,14 @@ body{
 .fontStyle{
     margin-right: 6px;
 }
+.picStyle{
+    background-color:#D9D7F1;
+     height:150px;
+      width:150px;
+      display:inline-block;
+      margin-right:26px;
+      margin-bottom:10px;
+      position:relative;
+      left:10px;
+      padding:40px;
+}

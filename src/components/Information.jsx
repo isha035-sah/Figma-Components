@@ -1,8 +1,5 @@
 import React from "react";
 import { Navbar } from "react-bootstrap";
-import Nav from 'react-bootstrap/Nav';
-import Container from 'react-bootstrap/Container';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
@@ -14,11 +11,11 @@ function Card(props){
         <Row>
             <Col xs={4}>
                 <div style={{}}>
-                    <div style={{backgroundColor:"#D9D7F1", height:"150px", width:"150px",display:"inline-block",marginRight:"26px",marginBottom:"10px",position:"relative",left:"10px",padding:"40px"}}>
+                    <div className="picStyle">
                          Photos
 
                      </div>
-                     <div style={{display:"inline-block",position:"relative",top:"100px",padding:"2px"}}>
+                     <div style={{display:"inline-block",position:"relative",top:"70px",padding:"2px"}}>
                        <p style={{fontSize:"30px"}}>{props.name}</p>
                        <p style={{color:"grey"}}>{props.age}</p>
                        <p style={{color:"green"}}>{props.assignment}</p>
