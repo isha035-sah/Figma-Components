@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Information from "./Information";
+import TopNav from "./TopNav";
 
 function App() {
   return (
@@ -11,14 +12,16 @@ function App() {
 
     <div className="App">
       <header className="App-header">
+
+      <TopNav/>
       <Row>
               <Col xs={2} style={{}}>
               <Navs/>
               </Col>
 
               <Col xs={10}>
-                <div>
-                  Header and components
+                <div style={{padding:"15px"}}>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
 
                 </div>
 
